@@ -1,0 +1,33 @@
+/*
+    ---color list---
+    first : #692be2 
+    text:color: rgb(238, 238, 238)  
+
+*/
+.nav {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  background: linear-gradient(
+    140deg,
+    rgba(252, 98, 3, 0.987) 0%,
+    rgba(143, 20, 186, 1) 30%,
+    rgb(0, 191, 255) 80%
+  );
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  width: 1000px;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.nav ul li {
+  display: flex;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
